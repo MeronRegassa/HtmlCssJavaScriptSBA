@@ -33,12 +33,12 @@ JavaScript
 
 Setup and Installation
 
-1. Clone the repository
-2. Navigate to the project directory: Christian-Media-portal
+1. Clone the repository: https://github.com/MeronRegassa/HtmlCssJavaScriptSBA.git
+2. Navigate to the project directory: HtmlCssJavaScriptSBA
 3. Open index.html in your preferred web browser to start using the application.
 
 
-Login credentials: 
+Login credentials:
 username = morinaga  
 email =  morinaga.mg@gmail.com  
 password = 123456
