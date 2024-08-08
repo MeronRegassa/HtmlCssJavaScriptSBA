@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members List</title>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Tangerine">
+<style>
+.navbar-brand {
+  font-family: 'Tangerine', serif;
+  font-size: 68px;
+}
+</style>
+    <link rel="stylesheet" href="./members.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-brand" style="font-size: 50px">Christian Media Portal</a>
+            <div class="navbar-menu">
+                <a href="./index.html" class="navbar-link">Home</a>
+                <select class="navbar-link">
+                    <option value="Streams"> <h3 class="stream">Streams</h3></option>
+                    <option value="GospelMusicStreams"><a href="./Streams/gosipleMusicStreams.html">Gospel Music Streams</a></option>
+                    <option value="MovieStreams"><a href="./Streams/movieStreams.html">Movie Streams</a></option>
+                    <option value="PreachingStreams"><a href="./Streams/preachingStreams.html">Preaching Streams</a></option>
+                </select>
+            </div>
+           
+        </div>
+    </nav>
+<div class="content">
+    <div class="container">
+        <h1 style="font-size: 50px; font-family: 'Tangerine', serif;">Registered Members</h1>
+        <table id="membersTable">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Members will be populated here -->
+            </tbody>
+        </table>
+
+        <div>
+            <p>What would you like to do?</p>
+            <button><a href="./Streams/gosipleMusicStreams.html">Listen to Music</a></button>
+            <button><a href="./Streams/movieStreams.html">Watch Movie</a></button>
+            <button><a href="./Streams/preachingStreams.html">Listen to Preaching</a></button>
+        </div>
+    </div>
+</div>
+
+    <script src="./members.js"></script>
+</body>
+</html>

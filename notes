@@ -1,0 +1,33 @@
+APIkey: AIzaSyBebBG1LZybOz5DNDdZMq35nwsVqRnKeUk
+
+website: http://127.0.0.1:5502/
+
+ChannelID: UCSf-NCzjwcnXErUBW_qeFvA  //elivation worship
+uploadID: UUSf-NCzjwcnXErUBW_qeFvA
+url:  https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=20&playlistId=UUSf-NCzjwcnXErUBW_qeFvA&key=AIzaSyBebBG1LZybOz5DNDdZMq35nwsVqRnKeUk
+
+
+ChannelID: UCWhCVykRa2tgmziv5PNgkJA //christian movies
+uploadID: UUWhCVykRa2tgmziv5PNgkJA
+url: https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=20&playlistId=UUWhCVykRa2tgmziv5PNgkJA&key=AIzaSyBebBG1LZybOz5DNDdZMq35nwsVqRnKeUk 
+
+
+
+
+channelID: UCER2LBsm4hB_Kxte63RoftQ  //Joyce Meyer preaching
+uploadID: UUER2LBsm4hB_Kxte63RoftQ
+url: https://youtube.googleapis.com/youtube/v3/playlists?part=snippet&id=UUER2LBsm4hB_Kxte63RoftQ&maxResults=20&key=AIzaSyBebBG1LZybOz5DNDdZMq35nwsVqRnKeUk
+
+
+
+ 
+// Kirk Franklin songs
+channelID: UCTbSDtpElugjahw088Nnubg
+uplooadID: UUTbSDtpElugjahw088Nnubg
+url:  https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=20&playlistId=UUTbSDtpElugjahw088Nnubg&key=AIzaSyBebBG1LZybOz5DNDdZMq35nwsVqRnKeUk
+
+
+
+ https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=20&playlistId=UUTbSDtpElugjahw088Nnubg&key=
+
+

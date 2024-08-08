@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+nav {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* .content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+} */
+.content {
+    padding: 20px;
+    text-align: center;
+    background: url('../css/resources/cross.png') no-repeat center center fixed;
+    background-size: cover;
+    /* height: calc(100vh - 50px); */
+    /* display: flex; */
+    justify-content:center;
+    align-items:center;
+    color: #aa9d9d;
+}
+.content h1{
+    color: rgb(16, 15, 15);
+    font-size: 70px;
+}
+
+.stream-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.stream-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    width: 250px;
+}
+/* .stream-item:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
+.stream-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.stream-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.stream-item p {
+    color: #302f2f;
+    font-size: 14px;
+    white-space: nowrap;      /* Prevent the text from wrapping */
+    overflow: hidden;         /* Hide the overflowing text */
+    text-overflow: ellipsis;  /* Add the ellipsis at the end */
+
+}
+/* .stream-item p:hover {
+    overflow:visible;
+    word-wrap: break-word;
+
+} */
+
+
+.stream-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #646a64;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.stream-item a:hover {
+    background-color: #161816;
+}
