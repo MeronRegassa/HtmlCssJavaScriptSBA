@@ -31,9 +31,16 @@ HTML
 CSS
 JavaScript
 
+Setup and Installation
 
-username = morinaga
-email =  morinaga.mg@gmail.com
+1. Clone the repository
+2. Navigate to the project directory: Christian-Media-portal
+3. Open index.html in your preferred web browser to start using the application.
+
+
+Login credentials: 
+username = morinaga  
+email =  morinaga.mg@gmail.com  
 password = 123456
 
 
