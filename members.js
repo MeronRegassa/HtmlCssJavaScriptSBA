@@ -8,6 +8,7 @@ const members = [
 
 document.addEventListener('DOMContentLoaded', function() {
     const tableBody = document.getElementById('membersTable').querySelector('tbody');
+   
     members.forEach(member => {
         const row = document.createElement('tr');
         row.innerHTML = `
@@ -16,4 +17,25 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
         tableBody.appendChild(row);
     });
+
+   
+
+    
 });
+
+
+
+/*
+
+const tableBody = document.getElementById('membersTable').querySelector('tbody');
+    streams.forEach(stream => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${stream.gosipleSongs}</td>
+            <td>${stream.preachings}</td>
+            <td>${stream.christianMovies}</td>
+
+        `;
+        tableBody2.appendChild(row);
+    });
+*/
