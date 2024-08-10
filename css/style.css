@@ -34,12 +34,30 @@
     text-align: center;
     /* margin:20% 0 0 -20% ; */
 }
+.animate-text {
+    font-size: 4rem;
+    color: #413b3b;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeInMoveRight 2s ease-in-out forwards;
+}
+
+@keyframes fadeInMoveRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 .verse{
     margin-top: -40%;
     font-family: 'Tangerine', serif;
      font-size: 50px;
      font: bold;
-     color: #121010;
+     color: #ca4848;
 }
 .container h2{
     color:#373232
